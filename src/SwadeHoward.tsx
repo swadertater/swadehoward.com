@@ -17,20 +17,20 @@ function SwadeHoward() {
             <Introduction />
           </div>
         </div>
-        <h1 className="text-center mt-5">Colleagues</h1>
+        <div className="text-center mt-5 title">Colleagues</div>
         <div className="row">
-          <div className="col">
+          <div className="col-lg">
               <img
-                className="img-responsive"
+                className="img-responsive mt-3 mt-lg-0"
                 width="100%"
                 height="auto"
                 src={selfieWithCats}
                 alt="Selfie with cats"
               />
           </div>
-          <div className="col">
+          <div className="col-lg">
           <img
-                className="img-responsive"
+                className="img-responsive mt-4 mt-lg-0"
                 width="100%"
                 height="auto"
                 src={catsOnDesk}
